@@ -1,7 +1,7 @@
 megs: 32
 romimage: file=$BXSHARE/BIOS-bochs-latest
 vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
-floppya: 1_44=/dev/loop0, status=inserted
+floppya: image="floppy.img", status=inserted
 boot: a
 log: bochsout.txt
 mouse: enabled=0
